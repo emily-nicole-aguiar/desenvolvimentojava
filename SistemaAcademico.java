@@ -1,3 +1,5 @@
+//Crie um sistema que armazene dados do aluno e do professor.
+
 //Exemplo de classe e objeto
 
 package sistemaacademico;
@@ -7,7 +9,8 @@ package sistemaacademico;
 public class SistemaAcademico {
  
     public static void main(String[] args) {
-        
+     
+        //Tela inicial do sistema       
         System.out.println("***** SISTEMA ACADÊMICO *****");
         System.out.println("\n Dados do Aluno");
         
@@ -25,12 +28,13 @@ public class SistemaAcademico {
         
         System.out.println("\nGrade Curricular");
  
-        
+        //Adicionando um professor e disciplina 
         Professor grade = new Professor();
         grade.nome = "Ryan";
         grade.disciplina = "Programação Orientada a Objetos em Java";
         grade.nota = "";
-                
+        
+        //Acessando o método da classe grade
         grade.exibir();
     }
     
