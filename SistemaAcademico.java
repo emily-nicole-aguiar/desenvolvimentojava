@@ -15,10 +15,10 @@ public class SistemaAcademico {
         Aluno aluno1 = new Aluno(); 
         
         //Acessando o atributo da classe aluno
-        aluno1.nome = "Emily Nicole Aguiar Nepomuceno";
-        aluno1.endereco = "Rua X, Nº X, Bairro X, Manaus-AM";
+        aluno1.nome = "Eilen";
+        aluno1.endereco = "Rua X, Nº X, Bairro X, Sao Paulo-SP";
         aluno1.telefone = "(XX) XXXXX-XXXX";
-        aluno1.email = "emilyaguiar@gmail.com";
+        aluno1.email = "eilen@gmail.com";
         
         //Acessando o método da classe aluno
         aluno1.exibir(); 
@@ -27,7 +27,7 @@ public class SistemaAcademico {
  
         
         Professor grade = new Professor();
-        grade.nome = "Leandro Reis Fonseca";
+        grade.nome = "Ryan";
         grade.disciplina = "Programação Orientada a Objetos em Java";
         grade.nota = "";
                 
