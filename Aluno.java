@@ -10,6 +10,7 @@ public class Aluno {
     
     void exibir(){
         
+        //Adicionando dados do aluno
         System.out.println("Nome do aluno: "+nome);
         System.out.println("Endereço: "+endereco);
         System.out.println("Telefone: "+telefone);
